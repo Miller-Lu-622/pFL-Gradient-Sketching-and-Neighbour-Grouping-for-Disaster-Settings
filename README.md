@@ -2,16 +2,16 @@
 
 This repository is a research fork built on top of [PFLlib](https://github.com/TsingZ0/PFLlib).
 
-At the current stage, it is used mainly for **experiment setup, baseline comparison, and evaluation**, leveraging PFLlib's existing training and benchmarking structure. The longer-term goal is to refine this proposal into a **dedicated Flower-based implementation** for disaster-oriented personalized federated learning.
+At the current stage, it is used mainly for **PFLlib-based experiment setup, baseline comparison, and evaluation**, leveraging PFLlib's existing training and benchmarking structure. The longer-term goal is to refine this proposal into a **dedicated Flower-based implementation and simulation framework** for disaster-oriented personalized federated learning.
 
 In other words:
 
-- **now**: use the PFLlib fork as the evaluation and experimentation base
-- **next**: implement the full method more explicitly in a Flower framework
+- **now**: use the PFLlib fork as the **PFLlib-based experimental evaluation base**
+- **next**: implement the full method more explicitly in a **Flower-based simulation and main implementation** repository
 
 Related Flower implementation repository:
 
-- <https://github.com/Miller-Lu-622/pFL-with-Gradient-Sketching-and-Neighbour-Grouping-for-Disaster-Settings-Flower-Implementation>
+- <https://github.com/Miller-Lu-622/disaster-pfl-flower-sim>
 
 The research direction focuses on:
 
@@ -72,7 +72,7 @@ This project is centered on a simulation-based evaluation pipeline.
 
 ## Current Repository Role
 
-This repository currently serves as the **PFLlib-based experimental and evaluation base** for the proposed work, rather than the final standalone system implementation.
+This repository currently serves as the **PFLlib-based experimental and evaluation base** for the proposed work, rather than the final standalone system implementation or simulation framework.
 
 Planned development directions include:
 
@@ -85,7 +85,7 @@ Planned development directions include:
 
 The corresponding Flower implementation repository is:
 
-- <https://github.com/Miller-Lu-622/pFL-with-Gradient-Sketching-and-Neighbour-Grouping-for-Disaster-Settings-Flower-Implementation>
+- <https://github.com/Miller-Lu-622/disaster-pfl-flower-sim>
 
 ## Repository Structure
 
@@ -113,8 +113,8 @@ To keep the repository lightweight:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Miller-Lu-622/pFL-Gradient-Sketching-and-Neighbour-Grouping-for-Disaster-Settings.git
-cd pFL-Gradient-Sketching-and-Neighbour-Grouping-for-Disaster-Settings
+git clone https://github.com/Miller-Lu-622/disaster-pfl-pfllib-eval.git
+cd disaster-pfl-pfllib-eval
 ```
 
 ### 2. Create the environment
