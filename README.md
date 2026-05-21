@@ -1,6 +1,19 @@
 # Personalized Federated Learning with Gradient Sketching and Neighbour Grouping for Disaster Settings
 
-This repository is my research fork built on top of [PFLlib](https://github.com/TsingZ0/PFLlib). It is being adapted to study a disaster-oriented personalized federated learning framework that supports:
+This repository is a research fork built on top of [PFLlib](https://github.com/TsingZ0/PFLlib).
+
+At the current stage, it is used mainly for **experiment setup, baseline comparison, and evaluation**, leveraging PFLlib's existing training and benchmarking structure. The longer-term goal is to refine this proposal into a **dedicated Flower-based implementation** for disaster-oriented personalized federated learning.
+
+In other words:
+
+- **now**: use the PFLlib fork as the evaluation and experimentation base
+- **next**: implement the full method more explicitly in a Flower framework
+
+Related Flower implementation repository:
+
+- <https://github.com/Miller-Lu-622/pFL-with-Gradient-Sketching-and-Neighbour-Grouping-for-Disaster-Settings-Flower-Implementation>
+
+The research direction focuses on:
 
 - strong natural Non-IID data across disaster events and regions
 - repeated regrouping under drift and changing participation
@@ -59,7 +72,7 @@ This project is centered on a simulation-based evaluation pipeline.
 
 ## Current Repository Role
 
-This repository currently serves as the implementation base for the proposed work.
+This repository currently serves as the **PFLlib-based experimental and evaluation base** for the proposed work, rather than the final standalone system implementation.
 
 Planned development directions include:
 
@@ -68,6 +81,11 @@ Planned development directions include:
 - supporting repeated regrouping strategies
 - simulating disaster-induced communication instability
 - benchmarking against existing FL / pFL baselines
+- preparing the transition toward a more explicit Flower-based implementation of the proposed framework
+
+The corresponding Flower implementation repository is:
+
+- <https://github.com/Miller-Lu-622/pFL-with-Gradient-Sketching-and-Neighbour-Grouping-for-Disaster-Settings-Flower-Implementation>
 
 ## Repository Structure
 
